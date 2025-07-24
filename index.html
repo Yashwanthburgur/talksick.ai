@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Talksick.ai | Get Roasted</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>🔥 Talksick.ai</h1>
+        <p>Your personal ideological enemy. No beliefs are safe.</p>
+      </header>
+
+      <div id="chat-box">
+        <div class="message bot-message">
+          <p>
+            Alright, I'm here. What half-baked idea or deeply held belief do you
+            want me to dismantle? Don't waste my time.
+          </p>
+        </div>
+      </div>
+
+      <div id="loader" class="hidden">
+        <div class="spinner"></div>
+      </div>
+
+      <form id="roast-form">
+        <textarea
+          id="user-input"
+          placeholder="Roast my startup idea, political view, or life philosophy..."
+          required
+        ></textarea>
+        <button id="submit-btn" type="submit">Get Roasted</button>
+      </form>
+    </div>
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
