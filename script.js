@@ -3,7 +3,7 @@
 // PASTE YOUR GOOGLE AI API KEY HERE
 // Get one from https://aistudio.google.com/
 // -----------------------------------------------------------------------------
-const API_KEY = "AIzaSyA8nYiFcyxVHNKFIHc1lMjti2pRKcroS2I";
+const API_KEY = "Add_your_own_API";
 
 // -----------------------------------------------------------------------------
 // The AI's Personality (System Prompt)
